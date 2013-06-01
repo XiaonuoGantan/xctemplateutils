@@ -19,9 +19,9 @@ How to use it
 ```
   For example, suppose you have MagicalRecord copied into
   a subfolder MagicalRecord/ of your .xctemplate folder @
-  MyXCTemplate/MagicalRecord. You can:
+  MyXCTemplate.xctemplate/MagicalRecord. You can:
 ```
-        cd MyXCTemplate; generate_xctemplate.py -d MagicalRecord
+        cd MyXCTemplate.xctemplate; generate_xctemplate.py -d MagicalRecord
 ```
 
 * Generate <string> for <Nodes> element
